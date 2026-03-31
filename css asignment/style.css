@@ -173,3 +173,84 @@ body{
 {
     outline:15px solid orange;
 }
+.homenav
+{
+    align-items: flex-end;
+}
+.navcont{
+    height:100px;
+    width:100%;
+    background-color: lightblue;
+    margin: 2px;
+    border: solid 3px black;
+
+}
+.homenav{
+    text-align: right;
+    font-weight:900;
+    font-size: x-large;
+}
+.hero{
+    height:100%;
+    width:100%;
+    background: linear-gradient(to right,blue,red);
+    align-self: center;
+    margin:0;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    animation-name: hero;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 1px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    align-items: center;
+    }
+    .contform{
+        height: 400px;
+        width: 400px;
+        background-color: aquamarine;
+        border: 3px solid black;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size:200%;
+        padding: 20px;
+        text-decoration: underline;
+    }
+    .cardcont{
+        display: flex;
+        flex-direction:row;
+        position: relative;
+        border: 2px;
+        align-self: center;
+        margin: 10px solid black;
+        padding: 10px;
+
+
+            }
+
+    .cardcont div{
+        height: 400px;
+        width: 400px;
+        background: linear-gradient(purple,white);
+        display:inline-block;
+        margin: 2px;
+        border: 3px solid black;
+
+    }
+    
+
+    .cardcont div input:hover{
+        background: linear-gradient(red,yellow,orange,green);
+         outline:25px;
+        border-color: yellow; 
+        transition: 5s;
+        /* background-color: RED; */
+    }
