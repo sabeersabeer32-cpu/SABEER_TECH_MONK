@@ -1,0 +1,175 @@
+body{
+    /* background-color:black; */
+}
+.csscontainer{
+    display:inline-block; 
+       
+}
+.csscontainer div.red {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color: red;
+    align-content: center;
+    text-align: center;
+    }
+    .csscontainer div.red:hover{
+        filter: brightness(0.7);
+    }
+    .csscontainer div.green:hover{
+        filter: brightness(0.7);
+    }
+.csscontainer div.green {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color:green;
+     align-content: center;
+    text-align: center;
+}
+.csscontainer div.blue {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color:blue;
+     align-content: center;
+    text-align: center;
+}
+.csscontainer div.yellow{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color:yellow;
+     align-content: center;
+    text-align: center;
+}
+.csscontainer div.brown {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color:brown;
+     align-content: center;
+    text-align: center;
+}
+.containerofgradient
+{
+    width: 700px;
+    height:700px;
+    background-color:white; 
+     border: 1px solid black; 
+    margin: 2px;
+    padding: 2px;
+    position: relative;
+    display: flex;
+    
+
+}
+.containerofgradient .div1
+{
+    height:250px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 2px;
+    background:linear-gradient(to right,blue,purple ,yellow,black);
+    flex-direction: column;
+}
+.containerofgradient .div2
+{
+    height:250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    /* margin: 2px; */
+    background:radial-gradient(circle at center,red,blue);
+    flex-direction: column;
+}
+.b1{
+    height: 200px;
+    width: 200px;
+  border: 2px black solid;
+    margin: 3px;
+    background-color: red;
+    align-content: center;
+    justify-self: center;
+        text-align: center;
+            display: inline-block;
+
+
+}
+.b2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+   margin: 3px;
+    background-color:blue;
+     align-content: center;
+     justify-self: center;
+         text-align: center;
+             display: inline-block;
+
+
+}
+.b3{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    padding: 2px;
+    margin: 3px;
+    border: solid 2px black;
+    background-color:orange;
+     align-content: center;
+      justify-self: center;
+    text-align: center;
+    display: inline-block;
+}
+.card1{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    margin: 3px;
+    border: 10px solid black;
+    padding: 10px;
+    display:inline-block;
+    text-align: center;
+        display: inline-block;
+        border-radius: 20px;
+
+
+}
+.card2{
+    height: 300px;
+    width: 300px;
+    background-color:aqua;
+    margin: 3px;
+    border: 10px solid black;
+    padding: 10px;
+    display:inline-block;
+        text-align: center;
+         border-radius: 20px;
+
+}
+.card3{
+    height: 300px;
+    width: 300px;
+    background-color:bisque;
+    margin: 3px;
+    border: 10px solid black;
+    padding: 10 px;
+    display:inline-block;
+        text-align: center;
+         border-radius: 20px;
+         padding: 10px;
+
+}
+
+.card3:hover
+{
+    outline:15px solid red;
+}
+.card2:hover
+{
+    outline:15px solid blue;
+}
+.card1:hover
+{
+    outline:15px solid orange;
+}
