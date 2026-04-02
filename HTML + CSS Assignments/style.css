@@ -1,0 +1,155 @@
+.sectionconatiner
+{
+height:100%;
+width: 100%;
+background-color: aqua;
+display: flex;
+flex-direction: row;
+position: relative;
+border: 2px solid black;
+}
+.sectionconatiner section
+{
+    height:200px;
+    width:50%;
+    background-color: blue;
+    border: 2px dashed black;
+    background: linear-gradient(blue,white);
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    font-size:60px;
+}
+.aboutme{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: antiquewhite;
+
+}
+.aboutme P
+{
+    text-align: center;
+    animation: paratext 4s ;
+}
+
+@keyframes paratext{
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(25);
+    }
+    75%{
+        transform: scale(1);
+    }
+}
+
+.header{
+    height:90px;
+    width:1500px;
+    margin: 5px;
+    border: 3px solid black;
+    background: linear-gradient(purple,white);
+    align-content: center;
+    justify-content: center;
+    /* text-align: center; */
+    text-decoration: solid;
+    font-size:30px;
+    text-shadow: 20px;
+}
+.header nav{
+    text-align:end;
+    font-size: xx-large;
+    align-content: end;
+    font-variant: small-caps;
+    /* color:; */
+}
+.landhero{
+    width: 1500px;
+    height: 170px;
+    background: linear-gradient(green,white);
+    margin: 5px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    font-size:80px;
+
+}
+.features{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    background: linear-gradient(purple,white);
+    
+}
+.features div{
+    height:150px;
+    width:150px;
+    margin: 3px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: red;
+  
+}
+
+ .features div:hover{
+    transform: translateY(-10px);
+    box-shadow: 15px 20px 10px rgba(200,225, 255);
+ }
+ .heroSection
+ {
+    height: 300px;
+    width: 1500px;
+    background: linear-gradient(white,purple);
+    border: 2px solid purple;
+    margin: 2px;
+background-image: url("SAREE.JPEG");
+    align-content: center;
+
+ }
+ .heroSection img
+ {
+    height: 290px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 2px;
+     }
+     .cardCont{
+        background-color: lightblue;
+        height:300px;
+        width: 1500px;
+        border: 2px solid black;
+        border-radius: 2px;
+
+     }
+     .cardCont div{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: lightgreen;
+        display: inline-block;
+        margin: 40px;
+             }
+      .Gallery{
+        display: grid;
+        background-color: black;
+         height:600px;
+        width:1500px;
+        /* margin: 2px;
+        border: 1px solid black; */
+        grid-template-columns:100px 100px 100px 100px 100px;
+        align-self: center;
+        /* position: relative; */
+      }       
+      .Gallery div{
+        height: 120px;
+        width: 100px;
+        margin: 2px;
+        border: 3px solid white;
+      }
+       .Gallery div:hover 
+       {
+        transform:scale(1.1);
+        opacity: 10;
+       }
